@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+#content{
+    /*text selection ban*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;     
+
+    display: flex;
+    flex-direction: row;
+}
+
+/*Left bar*/
+#box-left{
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    width: 190px;
+    height: 100%;
+
+    background: #2E4A65;
+    border-right: 1px solid rgba(27, 115, 150, 0.5);
+}
+/*LOGO*/
+.box-logo{
+    height: 64px;
+    text-align: center;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #0BA4E0;
+}
+/*Logo's text*/
+.school-name{
+    text-decoration: none;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #0BA4E0;
+}
+/*Left bar's button*/
+.box-left-button{
+    margin-bottom: 1px;
+
+    height: 55px;
+
+    background: #233C54;
+}
+
+/*Managment button*/
+.box-left-button.managment a{
+    margin-left: 35px;
+}
+
+/*Left bar's button text*/
+.box-left-button a{
+    text-decoration: none;  
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 55px;
+
+    color: #305B84;
+}
+/*Left bar's button's play simbol*/
+.box-left-button span{
+    margin-right: 8px;
+    margin-left: 20px;
+}
+/*Buttons of Managment*/
+.box-left-inner-button{
+    background: #213C56;
+    padding: 10px;
+    margin-bottom: 1px;
+}
+
+.box-left-inner-button a{
+    text-decoration: none;
+    padding: 8px 0 8px 0;
+    margin-left: 35px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+
+    display: flex;
+
+    color: #396794;
+}
+
+/*Right container*/
+#box-right{
+    display: flex;
+    flex-direction: column;
+}
+/*Top*/
+#header{
+    margin-left: 190px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background: #FEFEFE;
+}
+
+/*Three lines*/
+#par{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #6394B6;
+}
+#account{
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+#account a{
+    margin-left: 10px;
+}
+/*Biggest Mainest container*/
+#main-box{
+    margin-left: 190px;
+    height: 645px;
+    width: 1345px;
+    background: #F5F6F8;
+}
+/*"Code Kids CRM"*/
+#main-box h1{
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+
+    color: rgba(57, 103, 148, 0.2);
+}
+/*Button's hangings after click*/
+
+.box-left-inner-item:active a{
+    color:#9ABDDF;
+}
+
+.box-left-button:active{
+    background-color: #2B93BC;
+}
+
+.box-left-button:active a{
+    color: #E0EBF0;
+}

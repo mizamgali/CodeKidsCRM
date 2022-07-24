@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     
+}
+
+#content{
+    /*text selection ban*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;     
+    /*dividing content to boxLeft and boxRight*/
+    display: flex;
+    flex-direction: row;
+}
+
+/*Left Container*/
+#box-left{
+    /*Put buttons under each other*/
+    display: flex;
+    flex-direction: column;
+    /*!!!!!!! PLS CORRECT IT !!!!!!!!*/
+    position: absolute;
+    width: 190px;
+    height: 100%;
+
+    background: #2E4A65;
+    border-right: 1px solid rgba(27, 115, 150, 0.5);
+}
+/*container with LOGO and name*/
+.box-left-logo{
+    height: 64px;
+    text-align: center;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #0BA4E0;
+}
+/*Logo's text*/
+.box-left-logo a{
+    text-decoration: none;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #0BA4E0;
+    
+}
+/*Left bar's buttons under container with LOGO*/
+.box-left-button{
+    margin-bottom: 1px;
+
+    height: 55px;
+
+    background: #233C54;
+}
+
+/*Left bar's buttons' text*/
+.box-left-button a{
+    text-decoration: none;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 55px;
+
+    color: #305B84;
+}
+/*Left bar's button's (▶) play simbol*/
+.box-left-button span{
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+/*Right container*/
+#box-right{
+    display: flex;
+    flex-direction: column;
+}
+/*Top*/
+#header{
+    margin-left: 190px;
+    height: 64px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    background: #FEFEFE;
+}
+/*Log In*/
+#log-in{
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+
+    color: #6394B6;
+}
+/*Three lines*/
+#par{
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #6394B6;
+}
+/*Biggest Mainest container*/
+#main-box{
+    margin-left: 190px;
+    height: 645px;
+    width: 1345px;
+    background: #F5F6F8;
+}
+/*"Code Kids CRM"*/
+#main-box h1{
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+
+    color: rgba(57, 103, 148, 0.2);
+}
+
+/*-----------------------ANIMATIONS-------------------*/
+
+/*Button's changings after click*/
+.box-left-button:active{
+    background-color: #2B93BC;
+}
+
+.box-left-button:active a{
+    color: #E0EBF0;
+}
+  

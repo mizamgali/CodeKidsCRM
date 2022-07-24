@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/*----------------------AUTHORIZATION------------------*/
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #0BA4E0;
+}
+#auth{
+    background-color: #FBFCFC;
+    /*text selection ban*/
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;     
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-radius: 20px;
+
+    width: 310px;
+    height: 380px;
+    
+    margin: 100px 580px;
+}
+.auth-logo{
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 10px;
+}
+.auth-logo-text{
+    margin-left: 5px;
+}
+img{
+    margin-top: 36px;
+}
+.school-name{
+    text-decoration: none;
+
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 38px;
+
+    color: #0BA4E0;
+    margin-bottom: 5px;
+}
+.auth-text{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 10px;
+
+    color: #6394B6;
+    margin-top: 0;
+}
+hr{
+    color: #39ABD8;
+}
+
+.form-input p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #6394B6;
+
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+.form-input input{
+    width: 190px;
+    height: 20px;
+    border: 1px solid #67A0B7;
+    border-radius: 7px;
+    background-color: #C7E3EE;
+}
+
+.auth-button{
+    background: #48A6CB;
+    border-radius: 8px;
+    border: 0;
+    
+    margin-top: 30px;
+    padding: 10px 30px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+
+
+    color: #EBF4FD;
+}
